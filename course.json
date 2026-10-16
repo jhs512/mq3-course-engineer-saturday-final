@@ -28,13 +28,25 @@
       "review_enabled": false
     },
     {
+      "id": "sat-engineer-c-memory-strings",
+      "title": "C · 메모리 할당과 문자열 주소를 연결해요",
+      "repository": "jhs512/mq3-lesson-sat-engineer-c-memory-strings",
+      "revision": "v1.0.0",
+      "sha256": "4db384b2b411776a0b3fa9f9df87db223b57ecf21c5cebb36ab84450af352079",
+      "prerequisites": [
+        "sat-engineer-c-multiple"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
       "id": "sat-engineer-static",
       "title": "Java · 클래스 칸과 객체 칸을 나눠 봐요",
       "repository": "jhs512/mq3-lesson-sat-engineer-static",
       "revision": "v1.0.0",
       "sha256": "7703fa6d15b80cbe0db3a794652e737a18936bfc9262bd362fdff418aa809016",
       "prerequisites": [
-        "sat-engineer-c-multiple"
+        "sat-engineer-c-memory-strings"
       ],
       "required": true,
       "review_enabled": false
